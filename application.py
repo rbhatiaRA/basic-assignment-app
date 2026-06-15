@@ -6,7 +6,7 @@ application = Flask(__name__)
 
 @application.route('/')
 def home():
-    return "Assignment Application Running Successfully"
+    return "Assignment Application Running Successfully and Deployed through GitHub Actions"
 
 @application.route('/db-test')
 def db_test():
